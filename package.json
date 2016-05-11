@@ -8,6 +8,7 @@
     "prepublish": "typings install && tsc && node make.js && npm run minify",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/akserg/ng2-toasty.git"
